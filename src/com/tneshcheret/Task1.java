@@ -22,7 +22,6 @@ public class Task1 {
                     minutes[0] = k;
                     for (int n = 0; n < 10; n++) {
                         minutes[1] = n;
-
                         if (hours[0] == minutes[1] && hours[1] == minutes[0]) {
                             coincidenceCounter++;
                         }
